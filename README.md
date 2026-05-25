@@ -4,7 +4,7 @@
 
 <img src="./project/concept/img/system%20design.svg" alt="Main Page" width="100%" />
 
-* **Pusat Pemrosesan (Server):** Berjalan di atas ekosistem Linux Server yang menaungi MySQL Server untuk manajemen database, Server Mjpeg Streamer untuk mendistribusikan video, dan mesin AI Summary  untuk merangkum percakapan.
+* **Pusat Pemrosesan (Server):** Berjalan di atas ekosistem Linux Server yang menaungi MySQL Server untuk manajemen database, Streamer Server untuk mendistribusikan video, dan mesin AI Summary  untuk merangkum percakapan.
 * **Jalur Komunikasi (Local Network):** Seluruh aliran data antara server dan perangkat klien terhubung secara eksklusif dan cepat melalui Local Network.
 * **Antarmuka Pengguna (Tab User):** Perangkat klien menggunakan SQLite dan MySQL Client untuk penyimpanan data lokal, menangkap video lewat Stream Camera , serta menjalankan pemrosesan bahasa langsung lewat AI Transcript dan AI Translate.
 
@@ -41,3 +41,8 @@ Terdapat layar awal dengan indikator untuk menghubungkan ke server utama , statu
 * **Fleksibilitas Format File:** Pada masing-masing panel, disematkan deretan ikon **Opsi format u...** (unduhan). Pengguna diberikan kebebasan untuk mengekspor data rapat sesuai kebutuhan administratif, baik itu dalam bentuk PDF, Spreadsheet (tabel data), maupun Docs (dokumen teks).
 * **Distribusi Instan via Kode QR:** Elemen visual paling dominan di halaman ini adalah kotak besar untuk **QR Code tautan und...** (unduhan). Fitur ini merupakan solusi distribusi nirkabel yang inovatif; peserta rapat cukup memindai kode QR di layar menggunakan ponsel mereka untuk mengunduh dokumen seketika, menghilangkan kebutuhan berbagi *link* manual atau berkirim  *email* .
 * **Navigasi Penyelesaian Sesi:** Tepat di pojok kanan bawah, terdapat tombol aksi **Kembali Home** dengan ikon rumah. Ini bertindak sebagai titik penyelesaian sesi yang aman, memungkinkan pengguna menutup antarmuka unduhan dan mereset sistem kembali ke layar beranda awal.
+
+#### Virtual Board
+
+<img src="./project/concept/img/virtual board.svg" alt="Main Page" width="100%" />
+
